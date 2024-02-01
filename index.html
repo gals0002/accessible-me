@@ -13,7 +13,7 @@
 </head>
 <body>
   <div class="container">
-    <div>
+    <div class="hidden">
       <ul>
         <li><a href="#nav">Skip to main navigation</a></li>
         <li><a href="#main">Skip to main content</a></li>
@@ -47,12 +47,7 @@
           <li itemprop="telephone">Phone: 613-000-0000</li>
         </ul>
         <h1>Address</h1 id="#add">
-        <p itemscope itemtype="https://schema.org/Organization">
-          <span itemprop="brand">Jambox Studios</span><span itemprop="address" itemscope itemtype="https://schema.org/PostalAddress">
-          <span itemprop="streetAddress">123 Guitar Road,</span>
-          <span itemprop="addressLocality">Musicville,</span> <span itemprop="addressCountry">Danceistan</span>
-          <span itemprop="postalCode">B3T 0L0</span>
-        </p>
+        `
       </div>
       <div class="contact-section" id="#cont">
         <h1>Contact Us</h1>
@@ -65,7 +60,7 @@
           <input type="text" placeholder="Subject">
           <b>Your Message</b>
           <textarea></textarea>
-          <button type="submit">Send</button>
+          <button type="submit" role="button">Send</button>
         </form>
       </div>
     </main>
